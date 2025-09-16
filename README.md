@@ -1,10 +1,5 @@
 ## Programmer Assessment Q4
 
-- Numbered steps  
-- Code blocks for commands  
-- Inline emphasis for `y` and file names  
-- Clickable link to your local host  
-
 This repository contains a broken web app built with Dash. Please follow the tasks below.
 
 Tasks:
@@ -21,21 +16,21 @@ Tasks:
 
 Starting with fresh linux with no python,
 First run 
-         sudo apt update
-         sudo apt install python3 python3-pip python3-venv
+         1. sudo apt update
+         2. sudo apt install python3 python3-pip python3-venv
 
 You should be prompted to type y (yes) for this to start downloading.
 mkdir new_project (or any appropriate name) and then add the needed files
 Then go to your directory
 CD/path/..... the path to your directory
 Create a virtual environment 
-         python3 -m venv venv
-         source venv/bin/activate
+         3. python3 -m venv venv
+         4. source venv/bin/activate
 install and upgrade pip which is pythons package handler (will read from pyproject.toml the needed dependancies)
-         pip install --upgrade pip
-         pip install
+         5. pip install --upgrade pip
+         6. pip install
 run the applicaiton
-         python main.py
+         7. python main.py
 This will start running (as it is currently) on your local host to http://127.0.0.1:10030/
 It is running on this address because in main.py we changed the port number to 10030 per the instructions above.
 
