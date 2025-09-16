@@ -1,5 +1,10 @@
 ## Programmer Assessment Q4
 
+- Numbered steps  
+- Code blocks for commands  
+- Inline emphasis for `y` and file names  
+- Clickable link to your local host  
+
 This repository contains a broken web app built with Dash. Please follow the tasks below.
 
 Tasks:
